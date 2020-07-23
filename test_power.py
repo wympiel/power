@@ -21,8 +21,7 @@ class PowerTest(unittest.TestCase):
 
     def test_negative_exp(self):
         self.assertEqual(pow(2, -5), 0.03125)
-    def test_fraction_exp(self):
-        self.assertEqual(power(4, 0.5), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
