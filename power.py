@@ -11,6 +11,6 @@ def power(base, exp):
 
 def neg_power(base, exp):
     neg = exp < 0
-    pos_result = pos_pow(base, abs(exp))
+    pos_result = neg_power(base, abs(exp))
     return 1/pos_result if neg else pos_result
 
